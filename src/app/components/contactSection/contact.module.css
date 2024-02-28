@@ -1,0 +1,61 @@
+.contact {
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact .number {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact .number span {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact .number span a {
+    font-family: 'Montserrat', sans-serif;
+    border: .5px solid rgb(107, 107, 107);
+    padding: 1rem 1.5rem;
+    transition: all 0.3s ease;
+    border-radius: .5rem;
+}
+
+.contact .number a:hover {
+    background-color: var(--orange);
+    border: .5px solid var(--orange);
+}
+
+.map {
+    filter: invert(100%)
+}
+
+@media(width<=820px) {
+    .contact {
+        padding: 2rem 2rem;
+    }
+
+    .contact .number {
+        flex-direction: column;
+    }
+}
+
+@media(width<=700px) {
+    .contact .number span a {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    .contact .number h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(width<=400px) {
+    .contact {
+        padding: 1rem;
+    }
+}

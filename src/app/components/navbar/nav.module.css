@@ -1,0 +1,100 @@
+.head {
+    z-index: 9999;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+
+    opacity: 0;
+}
+
+.head h1:hover span {
+    color: var(--orange);
+}
+
+.head .logo {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+.head ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+
+.head .reg {
+    transition: all .3s ease-in-out;
+}
+
+.head .reg a {
+    font-family: 'Nothing You Could Do', cursive;
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.head .reg:hover {
+    color: white;
+    scale: 1.1;
+    rotate: -3deg;
+}
+
+
+@media(width<=820px) {
+    .head {
+        padding: 1rem;
+    }
+
+    .head nav ul a {
+        display: none;
+        position: relative;
+        top: .3rem;
+    }
+
+    .head .reg a {
+        display: block;
+    }
+}
+
+@media(width<=500px) {
+    .head .reg a {
+        font-size: 1.5rem;
+    }
+}
+
+
+.popupOverlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    padding: .5rem;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    color: var(--orange);
+}
+
+.yepDesk {
+    width: 100%;
+    height: 90vh;
+    border-radius: .5rem;
+}

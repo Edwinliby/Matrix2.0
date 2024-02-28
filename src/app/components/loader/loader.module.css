@@ -1,0 +1,93 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 37rem;
+  height: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.gradient1 {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background: linear-gradient(to right, transparent, #4f46e5, transparent);
+  height: 2px;
+  width: 75%;
+  filter: blur(1px);
+}
+
+.gradient2 {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background: linear-gradient(to right, transparent, #4f46e5, transparent);
+  height: 1px;
+  width: 75%;
+}
+
+.gradient3 {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background: linear-gradient(to right, transparent, #79d0f7, transparent);
+  height: 5px;
+  width: 25%;
+  filter: blur(1px);
+}
+
+.gradient4 {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background: linear-gradient(to right, transparent, #79d0f7, transparent);
+  height: 1px;
+  width: 25%;
+}
+
+.gradient3,
+.gradient4 {
+  animation: gradientAnimation 4s linear infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (width<=768px) {
+  .container h1 {
+    font-size: 3rem;
+  }
+
+  .wrapper {
+    width: 25rem;
+  }
+}

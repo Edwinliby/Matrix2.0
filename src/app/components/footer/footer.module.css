@@ -1,0 +1,14 @@
+.footer {
+    padding: 1rem 4rem;
+    text-align: right;
+    font-size: .8rem;
+    color: rgb(141, 141, 141);
+    font-family: "Montserrat", sans-serif;
+}
+
+@media(width<=820px) {
+    .footer {
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+}
