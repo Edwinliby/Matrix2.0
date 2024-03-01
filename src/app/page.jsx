@@ -21,9 +21,9 @@ export default function page() {
 
   return (
     <main>
-      {loading ? (
+      {/* {loading ? (
         <Loader />
-      ) : (
+      ) : ( */}
         <div>
           <Navbar />
           <Hero />
@@ -33,7 +33,7 @@ export default function page() {
           <ContactSection />
           <Footer />
         </div>
-      )}
+      {/* )} */}
     </main>
   )
 }

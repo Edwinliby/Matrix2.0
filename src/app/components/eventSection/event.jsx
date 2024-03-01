@@ -10,25 +10,25 @@ const cardData = [
         img: python,
         alt: 'Python Workshop',
         name: 'Python Workshop',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo aut odit nulla iure minima pariatur laboriosam ducimus error omnis, impedit quibusdam commodi tenetur deserunt saepe laudantium modi delectus? Accusantium.'
+        description: 'Learn about the latest python libraries and how to use them in your projects. This workshop will be conducted by our in-house python experts. Join us and learn the best practices of python programming.'
     },
     {
         img: candle,
         alt: 'candle night dinner',
         name: 'Candle Night Dinner',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo aut odit nulla iure minima pariatur laboriosam ducimus error omnis, impedit quibusdam commodi tenetur deserunt saepe laudantium modi delectus? Accusantium.'
+        description: 'Treat yourself to a romatic candle light dinner with your loved ones. Enjoy the delicious food and soothing music. Make your night memorable with us.'
     },
     {
         img: campfire,
-        alt: 'Camp fire night',
+        alt: 'Bonfire night',
         name: 'Camp fire night',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo aut odit nulla iure minima pariatur laboriosam ducimus error omnis, impedit quibusdam commodi tenetur deserunt saepe laudantium modi delectus? Accusantium.'
+        description: 'Join us for the night under the stars with a campfire. Enjoy the music, food and the warmth of the fire. Make your night memorable with us.'
     },
     {
         img: fusion,
         alt: 'Music Fusion Night',
         name: 'Music Fusion Night',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium illo aut odit nulla iure minima pariatur laboriosam ducimus error omnis, impedit quibusdam commodi tenetur deserunt saepe laudantium modi delectus? Accusantium.'
+        description: 'Experience the music fusion of different genres. Enjoy the live performances of our talented artists. Join us and make your night memorable.'
     }
 ]
 
