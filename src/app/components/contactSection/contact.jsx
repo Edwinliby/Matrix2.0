@@ -6,8 +6,8 @@ export default function ContactSection() {
             <div className={styles.number}>
                 <h1>Contact Us :</h1>
                 <span>
-                    <a href="tel:8281231676"><b>Melvin:</b> 9354367826</a>
-                    <a href="tel:8281231676"><b>Lezin:</b> 9633179406</a>
+                    <a href="tel:9354367826"><b>Melvin:</b> 9354367826</a>
+                    <a href="tel:9633179406"><b>Lezin:</b> 9633179406</a>
                 </span>
             </div>
 
