@@ -1,56 +1,7 @@
 import styles from './about.module.css'
 import Image from 'next/image'
-
-const imgData = [
-    {
-        src: '/images/1.webp',
-        alt: 'one'
-    },
-    {
-        src: '/images/2.webp',
-        alt: 'two'
-    },
-    {
-        src: '/images/3.webp',
-        alt: 'three'
-    },
-    {
-        src: '/images/4.webp',
-        alt: 'four'
-    },
-    {
-        src: '/images/5.webp',
-        alt: 'five'
-    },
-    {
-        src: '/images/6.webp',
-        alt: 'six'
-    },
-    {
-        src: '/images/7.webp',
-        alt: 'seven'
-    },
-    {
-        src: '/images/8.webp',
-        alt: 'eight'
-    },
-    {
-        src: '/images/9.webp',
-        alt: 'nine'
-    },
-    {
-        src: '/images/10.webp',
-        alt: 'ten'
-    },
-    {
-        src: '/images/11.webp',
-        alt: 'eleven'
-    },
-    {
-        src: '/images/12.webp',
-        alt: 'twelve'
-    }
-]
+import Link from 'next/link'
+import { GiClick } from "react-icons/gi";
 
 export default function about() {
     return (
@@ -70,26 +21,34 @@ export default function about() {
 
             <div className={styles.aboutContent}>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Embark on a tech journey with IDEAMIRROR's <span>Matrix Workshp</span>, exploring Python's pivotal role in Robotics
+                    and program development. Over three days, discover Python's versatility in seamlessly integrating with robotic
+                    frameworks and crafting innovative applications. With a promising trajectory, Python stands as a key player in
+                    shaping the future of program development.Join us at <span>Matrix</span> to unlock Python's potential in the evolving
+                    landscape of technology and app development.
                 </p>
             </div>
 
             <div className={styles.prev}>
-                <h1>Previously ...</h1>
-                <div className={styles.prevImages}>
-                    {imgData.map((img, index) => (
-                        <Image
-                            key={index}
-                            src={img.src}
-                            alt={img.alt}
-                            width={500}
-                            height={500}
-                        />
-                    ))}
+                <Link href="/gallery"><h1>Previously ... <GiClick /> </h1></Link>
+
+                <div className={styles.eventPartnersContainer}>
+                    <div className={styles.eventPartners}>
+                        <img className={styles.logos} src='/images/1.webp' alt='' />
+                        <img className={styles.logos} src='/images/2.webp' alt='' />
+                        <img className={styles.logos} src='/images/3.webp' alt='' />
+                        <img className={styles.logos} src='/images/4.webp' alt='' />
+                        <img className={styles.logos} src='/images/5.webp' alt='' />
+                        <img className={styles.logos} src='/images/6.webp' alt='' />
+                    </div>
+                    <div className={styles.eventPartners}>
+                        <img className={styles.logos} src='/images/1.webp' alt='' />
+                        <img className={styles.logos} src='/images/2.webp' alt='' />
+                        <img className={styles.logos} src='/images/3.webp' alt='' />
+                        <img className={styles.logos} src='/images/4.webp' alt='' />
+                        <img className={styles.logos} src='/images/5.webp' alt='' />
+                        <img className={styles.logos} src='/images/6.webp' alt='' />
+                    </div>
                 </div>
             </div>
         </div>

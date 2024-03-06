@@ -35,9 +35,10 @@ export default function Nav() {
             </Link>
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#faq">Faq</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><Link href="#about">About</Link></li>
+                    <li><Link href="/gallery">gallery</Link></li>
+                    <li><Link href="#faq">Faq</Link></li>
+                    <li><Link href="#contact">Contact</Link></li>
                     <li className={styles.reg}><a href="#" onClick={openPopup}>Register</a></li>
                 </ul>
             </nav>
@@ -51,7 +52,7 @@ export default function Nav() {
                         <iframe
                             width="560"
                             height="315"
-                            src="https://www.yepdesk.com/embed/matrix-2-01"
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSfGClGADvDwNmWPZR4chZai9hTqaC_Nrsf5eZ3FyunM0Jylng/viewform"
                             allowFullScreen
                             title="Registration"
                             className={styles.yepDesk}

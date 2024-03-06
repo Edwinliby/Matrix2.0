@@ -26,6 +26,10 @@ p {
   color: rgb(255, 255, 255, .9);
 }
 
+span {
+  color: #FF7B00;
+}
+
 span,
 button {
   font-family: 'Nothing You Could Do', cursive;

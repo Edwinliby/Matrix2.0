@@ -21,6 +21,9 @@ export default function hero() {
             <p>WORKSHOP THAT YOU WISH YOU HAVE ATTENDED</p>
           </div>
           
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>
