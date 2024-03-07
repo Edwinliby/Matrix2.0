@@ -3,20 +3,20 @@ import styles from './faq.module.css'
 
 const questions = [
     {
-        question: 'How do I get started?',
-        answer: 'Just give us 10000 and we call you on 2025'
+        question: 'What will be taught?',
+        answer: 'Beginner to advanced python with AI project'
     },
     {
-        question: 'What is the minimum qualification to participate?',
-        answer: 'Must have a brain and a RTX 5090'
+        question: 'Will there be food and accommodation?',
+        answer: 'Yes, there will be all provided'
     },
     {
-        question: 'Will i get certificate after completion?',
-        answer: 'Of course, you will not get a certificate of participation'
+        question: 'Will i get certificate for completion?',
+        answer: 'Of course, you will get a certificate'
     },
     {
-        question: 'Will I get a life after this?',
-        answer: 'No, you will be a zombie after this'
+        question: 'Will i get activity points?',
+        answer: '20 activity points proposed'
     }
 ]
 
