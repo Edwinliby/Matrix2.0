@@ -39,7 +39,7 @@ export default function Nav() {
                     <li><Link href="/gallery">gallery</Link></li>
                     <li><Link href="#faq">Faq</Link></li>
                     <li><Link href="#contact">Contact</Link></li>
-                    <li className={styles.reg}><a href="#" onClick={openPopup}>Register</a></li>
+                    <li className={styles.reg}><a href="https://forms.gle/a2ei82HbsLdqxWJ66" target='_blank' >Register</a></li>
                 </ul>
             </nav>
 

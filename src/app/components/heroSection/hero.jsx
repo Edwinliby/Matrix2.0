@@ -1,5 +1,5 @@
 'use client'
-import {useEffect } from 'react';
+import { useEffect } from 'react';
 import { IoClose } from "react-icons/io5";
 import styles from './hero.module.css';
 import gsap from 'gsap';
@@ -20,9 +20,14 @@ export default function hero() {
             <h2>3 Day workshop</h2>
             <p>WORKSHOP THAT YOU WISH YOU HAVE ATTENDED</p>
           </div>
-          
-          <div>
-            
+
+          <div className={styles.date}>
+            <h3>March 2024</h3>
+            <div className={styles.dates}>
+              <span>15th</span>
+              <span>16th</span>
+              <span>17th</span>
+            </div>
           </div>
         </div>
       </div>
