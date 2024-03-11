@@ -22,11 +22,11 @@ export default function hero() {
           </div>
 
           <div className={styles.date}>
-            <h3>March 2024</h3>
+            <h3>April 2024</h3>
             <div className={styles.dates}>
-              <span>15th</span>
-              <span>16th</span>
-              <span>17th</span>
+              <span>5th</span>
+              <span>6th</span>
+              <span>7th</span>
             </div>
           </div>
         </div>
